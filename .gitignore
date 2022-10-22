@@ -1,0 +1,11 @@
+﻿##Idea
+
+.idea
+out
+
+*.info
+*.iml
+*.png
+*.log
+*.properties
+

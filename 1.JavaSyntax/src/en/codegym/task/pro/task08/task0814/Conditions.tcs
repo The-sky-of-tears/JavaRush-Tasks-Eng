@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task08.task0814"\n\nFlags
+
+Implement the following methods:
+1. setFlag(int number, int flagPos) - sets the bit at the flagPos position in the number number to 1 and returns the new value.
+2. resetFlag(int number, int flagPos) - sets the bit at the flagPos position in the number number to 0 and returns the new value.
+3. checkFlag(int number, int flagPos) - checks the value of the bit at the flagPos position in the number number and returns true if the bit is 1 or false if the bit is 0.
+
+
+Требования:
+1.	Implement the setFlag(int, int) method in accordance with the task conditions.
+2.	Implement the resetFlag(int, int) method in accordance with the task conditions.
+3.	Implement the checkFlag(int, int) method in accordance with the task conditions.
+
+

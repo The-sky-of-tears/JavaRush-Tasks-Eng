@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task14.task1414"\n\nMaking cocktails
+
+The printStackTrace method has the stackTrace array as an input parameter. You need to display information about each element of the array in the following format:
+&quot;The &lt;method name&gt; method was called on line &lt;line&gt; of the &lt;class name&gt; class in the file &lt;file name&gt;.&quot;
+Print information about each element on a new line.
+Example:
+The addJuice method was called on line 24 of the en.codegym.task.pro.task14.task1414.Solution class in the file Solution.java.
+
+
+Требования:
+1.	The printStackTrace method should print information about each element in the stackTrace array.
+
+

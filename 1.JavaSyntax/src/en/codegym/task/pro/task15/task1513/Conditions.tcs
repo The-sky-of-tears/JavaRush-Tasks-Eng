@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task15.task1513"\n\nGet to the root cause
+
+Write a program in which the user enters a path to a file or folder from the keyboard, and then the drive (or root for Unix-like paths) where the file (or folder) is located is displayed on the console.
+To solve this task, use Path and its methods.
+
+
+Требования:
+1.	The program should read a file/directory path from the console.
+2.	The program should display the drive on which this file (or folder) is located.
+3.	To get the drive from a path, use the getRoot() method of the Path class.
+4.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

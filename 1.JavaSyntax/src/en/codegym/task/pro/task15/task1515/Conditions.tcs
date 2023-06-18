@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task15.task1515"\n\nAbsolute path
+
+Write code that reads a path from the keyboard and display it on the console.
+If the path is not absolute, then you need to convert it to an absolute path before displaying it.
+
+
+Требования:
+1.	The program should read a file/directory path from the console.
+2.	The program should display this path on the console, converting it to absolute if necessary.
+3.	To check a path and convert it to absolute, you need to use the isAbsolute() and toAbsolutePath() methods of the Path class.
+4.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

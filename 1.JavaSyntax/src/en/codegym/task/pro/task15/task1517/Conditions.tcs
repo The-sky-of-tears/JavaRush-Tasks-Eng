@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task15.task1517"\n\nFile operations
+
+You need to write a program that reads two file paths from the keyboard.
+- If the file at the first path does not exist, it must be created.
+- If the file at the first path exists, you need to move this file to the second path, but only if there is no file at the second path.
+- If there is, then you just need to delete the file at the first path.
+Use the appropriate methods of the Files class: createFile(), move(), delete(), exists()/notExists().
+
+
+Требования:
+1.	The program should read two paths from the console.
+2.	The program must use the appropriate methods of the Files class: createFile(Path.class), move(Path, Path), delete(Path), exists(Path)/notExists(Path).
+3.	The program should process the entered paths in accordance with the task conditions.
+4.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

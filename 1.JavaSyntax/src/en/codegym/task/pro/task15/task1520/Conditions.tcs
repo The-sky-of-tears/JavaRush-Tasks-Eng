@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task15.task1520"\n\nMoving files
+
+Write a program that reads paths to two directories from the keyboard and moves files from one directory to the other (only files, ignore directories).
+Use the appropriate methods of the Files class: newDirectoryStream(), isRegularFile() or isDirectory(), move().
+
+
+Требования:
+1.	The program should read directory paths from the console.
+2.	The program must use the appropriate methods of the Files class in accordance with the task conditions.
+3.	The program should move files from one directory to another in accordance with the task conditions.
+4.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

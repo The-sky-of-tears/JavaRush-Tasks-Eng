@@ -1,0 +1,18 @@
+taskKey="en.codegym.task.pro.task15.task1523"\n\nGetting information through an API
+
+Your task is to access a public API on the Internet to send and receive data.
+Write a program that uses a URL for a public web API to send data and then receive a response and display it on the screen.
+
+Hints:
+
+1. Use the openConnection() method of the URL class.
+2. Use the setDoOutput(true) and getOutputStream() methods of the URLConnection class.
+3. If you don&#39;t know which API to use, use http://httpbin.org/post.
+
+
+Требования:
+1.	The program should display the received information on the screen.
+2.	The program should call the openConnection() method of the URL class.
+3.	The setDoOutput(true), getOutputStream(), and getInputStream() methods of the URLConnection class must be called in the program.
+
+

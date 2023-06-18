@@ -1,0 +1,17 @@
+taskKey="en.codegym.task.pro.task15.task1518"\n\nWhat's inside the folder?
+
+Write a program that reads a path to a directory from the keyboard, gets a list of files and directories in that directory, and displays information about them in the following format:
+&quot;&lt;path to file&gt; - This is a file&quot;, if it is a file.
+&quot;&lt;path to directory&gt; - This is a directory&quot;, if it is a directory.
+Don&#39;t display the angled brackets and quotation marks.
+
+Use the appropriate methods of the Files class: newDirectoryStream(Path), isRegularFile(Path), and isDirectory(Path).
+
+
+Требования:
+1.	The program should read a directory path from the console.
+2.	The program must use the appropriate methods of the Files class: newDirectoryStream(Path), isRegularFile(Path), and isDirectory(Path).
+3.	The program should receive a list of files and directories in a given directory and display information in accordance with the task conditions.
+4.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

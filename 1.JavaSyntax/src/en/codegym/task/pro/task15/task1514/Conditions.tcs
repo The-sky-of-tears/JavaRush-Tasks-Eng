@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task15.task1514"\n\nIt's all relative
+
+Write a program that reads two paths from the keyboard and displays the relative path between these paths, if it exists. Otherwise, don&#39;t display anything.
+Hint: If you couldn&#39;t find the relative path between path1 and path2, then try to find the relative path between path2 and path1.
+
+
+Требования:
+1.	The program should read two paths from the console.
+2.	The program should display the relative path between the entered paths, if it exists.
+3.	To calculate the relative path, the relativize() method of the Path class should be used.
+4.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

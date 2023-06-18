@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task15.task1511"\n\nWriting characters to a file
+
+There is a program that reads a path to a file from the console and writes to this file a sequence of characters obtained from the argument passed to the main(String[]) method.
+Your task is to fix a bug so that the character array can be written to the file.
+To write characters to a file, you need to use a BufferedWriter object obtained by calling the newBufferedWriter(Path) method of the Files class.
+
+
+Требования:
+1.	The program should read a path to a file from the console.
+2.	The program must rewrite the characters in the file.
+3.	The BufferedWriter returned by calling the newBufferedWriter(Path) method of the Files class should be used to write characters.
+4.	The stream for writing must be closed.
+5.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

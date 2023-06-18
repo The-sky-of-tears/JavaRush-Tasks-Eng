@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task15.task1510"\n\nWriting bytes to a file
+
+Amigo has been assigned the task of writing bytes to a file. He wrote a program that reads a path to a file from the console and writes to this file a sequence of bytes obtained from the argument passed to the main(String[]) method.
+But he made a mistake as he wrote the program.
+As you already know, BufferedWriter &quot;doesn&#39;t work&quot; with bytes: to write bytes to a file, you need to use the write(Path, byte[]) method of the Files class.
+A Path object can be obtained using the static Path.of() method, passing in the file path read from the console.
+This is how it looks: Path.of(scanner.nextLine()). Help Amigo fix the program.
+
+
+Требования:
+1.	The program should read a path to a file from the console.
+2.	The program should write bytes to a file.
+3.	The write(Path, byte[]) method of the Files class must be used to write bytes.
+4.	Do not use the following classes from the java.io package: File, FileInputStream, FileOutputStream, FileReader, FileWriter.
+
+

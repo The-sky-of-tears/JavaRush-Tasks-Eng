@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task15.task1522"\n\nGetting information through an API
+
+Your task is to access a public web API and get data. Write a program that uses a URL for a public web API to receive data and display it on the screen.
+
+Hints:
+- Use the openStream() method of the URL class.
+If you don&#39;t know which API to use, you can request a list of game projects from our server: https://codegym.cc/api/1.0/rest/projects
+
+
+Требования:
+1.	The program should display the received information on the screen.
+2.	The program should call the openStream() method of the URL class.
+
+

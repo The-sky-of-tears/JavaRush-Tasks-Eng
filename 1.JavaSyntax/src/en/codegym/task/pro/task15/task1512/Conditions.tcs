@@ -1,0 +1,24 @@
+taskKey="en.codegym.task.pro.task15.task1512"\n\nBack to the front
+
+In this task, you need to use a PrintStream to reverse the output.
+The printSomething(String) method outputs the passed string to the stream field.
+You need to use a PrintStream to reverse the output.
+The main(String[] args) method reads a string from the keyboard and passes it to the printSomething(String) method, which writes the received string into stream.
+Your task is to reverse the passed string using the outputStream field in the main(String[]) method (in other words, outputStream should contain the reversed string) and display it on the console.
+
+Example:
+Input data:
+this is text for testing
+Output:
+gnitset rof txet si siht
+
+Don&#39;t change the printSomething(String) method.
+
+
+Требования:
+1.	The program should use the printSomething() method.
+2.	The program should display in reverse order the string that is passed to the main(String[]) method.
+3.	To reverse the string, you need to use the outputStream field in accordance with the task conditions.
+4.	Don&#39;t change the printSomething(String) method.
+
+

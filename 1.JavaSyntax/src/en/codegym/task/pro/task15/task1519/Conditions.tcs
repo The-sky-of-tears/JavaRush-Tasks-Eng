@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task15.task1519"\n\nShallow copy
+
+Write a program that reads paths to two directories from the keyboard and copies files from one directory to the other (only files, ignore directories).
+Use the appropriate methods of the Files class: newDirectoryStream(), isRegularFile() or isDirectory(), copy().
+
+
+Требования:
+1.	The program should read a directory path from the console.
+2.	The program must use the appropriate methods of the Files class: newDirectoryStream(), isRegularFile() or isDirectory(), copy().
+3.	The program should copy files from one directory to another in accordance with the task conditions.
+4.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

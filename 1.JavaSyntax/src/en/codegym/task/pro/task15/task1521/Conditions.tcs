@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task15.task1521"\n\nSaving a temporary file
+
+Write code that reads a URL to a file on the Internet from the keyboard, downloads it, and saves it to a temporary file.
+Use the createTempFile(null, null) and write(Path, byte[]) methods of the Files class, as well as the openStream() method of the URL class.
+
+
+Требования:
+1.	The program should read from the console a URL (string) to a file on the Internet.
+2.	The program should download the file at the URL and save it to a temporary file.
+3.	The program should use the methods of the Files and URL classes in accordance with the task conditions.
+4.	Do not use the following classes: File, FileInputStream, FileOutputStream, FileReader, FileWriter (of the java.io package).
+
+

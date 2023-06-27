@@ -1,0 +1,26 @@
+taskKey="en.codegym.task.pro.task16.task1610"\n\nWorking out with time
+
+Initialize six static variables:
+
+- assign the maximum possible time to timeMax;
+- assign the minimum possible time to timeMin;
+- assign the time of 14 hours to time1;
+- assign the time of 7 hours 8 seconds to time2;
+- assign the time of 0 hours 45 minutes 61 nanoseconds to time3;
+- assign the time of 14 hours 45 seconds 1001 nanoseconds to time4.
+
+In the main() method, create a LocalTime object using the hours from time1 (time1.getHour()), minutes from time2, seconds from time3, and nanoseconds from time4.
+Display it on the screen.
+
+
+Требования:
+1.	In the Solution class, six variables should be initialized when they are declared.
+2.	timeMax should be initialized to the maximum possible time.
+3.	timeMin should be initialized to the minimum possible time.
+4.	time1 should be initialized to exactly 14 hours.
+5.	time2 should be initialized to 7 hours 8 seconds.
+6.	time3 should be initialized to 0 hours 45 minutes 61 nanoseconds.
+7.	time4 should be initialized to 14 hours 45 seconds 1001 nanoseconds.
+8.	The console output must match the task conditions.
+
+

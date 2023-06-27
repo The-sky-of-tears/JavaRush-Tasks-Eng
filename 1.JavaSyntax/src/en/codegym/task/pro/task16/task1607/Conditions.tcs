@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task16.task1607"\n\nMastering a new API
+
+Implement 4 methods in the Solution class:
+- the nowExample method should return the current date;
+- the other methods should return the date September 12, 2020, but should do so in different ways.
+
+
+Требования:
+1.	The nowExample method should return the current date.
+2.	The ofExample method should use the LocalDate.of method to return the date September 12, 2020.
+3.	The ofYearDayExample method should use the LocalDate.ofYearDay method to return the date September 12, 2020.
+4.	The ofEpochDayExample method should use the LocalDate.ofEpochDay method to return the date September 12, 2020.
+
+

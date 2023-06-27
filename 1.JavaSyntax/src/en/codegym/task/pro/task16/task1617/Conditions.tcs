@@ -1,0 +1,9 @@
+taskKey="en.codegym.task.pro.task16.task1617"\n\nGlobalization of time
+
+In the main method, assign a value to the globalTime variable using the localDateTime and zoneId variables.
+
+
+Требования:
+1.	The main method should assign a value to the globalTime variable using the localDateTime and zoneId variables.
+
+

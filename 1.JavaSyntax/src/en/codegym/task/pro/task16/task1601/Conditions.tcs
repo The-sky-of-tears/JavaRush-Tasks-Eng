@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.pro.task16.task1601"\n\nJust not on Monday :)
+
+Initialize the birthDate variable with a Date object that stores the date of your birth.
+Implement the getDayOfWeek(Date date) method so that it returns the English name of the day of the week passed in the date argument.
+
+
+Требования:
+1.	The birthDate variable must be initialized when it is declared.
+2.	The getDayOfWeek(Date date) method must return the English name of the day of the week.
+
+

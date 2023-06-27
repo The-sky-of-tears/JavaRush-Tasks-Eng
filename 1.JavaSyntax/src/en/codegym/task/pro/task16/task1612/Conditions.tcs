@@ -1,0 +1,19 @@
+taskKey="en.codegym.task.pro.task16.task1612"\n\nSynthesizing a LocalDateTime
+
+In the convert method, you need to convert a Map to a Set.
+Principle to follow when performing the conversion:
+
+if sourceMap has the following two elements:
+2018-05-31=[12:43:00.615424667, 08:35:29.212766273]
+1998-01-31=[07:56:59.931458499]
+
+then the resulting set should have the following three elements:
+2018-05-31T12:43:00.615424667
+2018-05-31T08:35:29.212766273
+1998-01-31T07:56:59.931458499
+
+
+Требования:
+1.	The convert method should convert a Map to a Set in accordance with the task conditions.
+
+

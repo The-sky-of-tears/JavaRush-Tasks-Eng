@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task16.task1602"\n\nСleaning up loose ends
+
+The fixDate method takes a list of dates as an argument.
+Some of them contain two typical errors: the year and month are stored incorrectly (and consequently are displayed incorrectly).
+In other words, an incorrect date always contains two errors (year and month).
+You need to fix them in the fixDate method in accordance with these conditions:
+1. If the date is greater than the current one, the two errors (its year and month) must be corrected using the setYear and setMonth methods. The year is given from 1900, and the months are numbered from zero.
+2. If the date is less than the current date, don&#39;t correct anything in it.
+
+
+Требования:
+1.	If the date is greater than the current date, the fixDate method must correct its year and month.
+2.	If the date is less than the current date, the fixDate method must not change it.
+3.	The fixDate method must check and fix all dates in the brokenDates list.
+
+

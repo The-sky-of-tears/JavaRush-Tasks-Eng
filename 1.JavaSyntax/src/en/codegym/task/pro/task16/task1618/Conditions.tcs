@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task16.task1618"\n\nJust don't get confused
+
+Knowing the time in one time zone, can you determine the time in another?
+Solve this task in the changeZone method. Here are its parameters:
+
+- fromTime is the known time;
+- fromZone is the time zone in which the known time is represented;
+- toZone is the time zone in which you want to determine the time.
+
+
+Требования:
+1.	The changeZone method should return a LocalDateTime represented in the toZone time zone.
+
+

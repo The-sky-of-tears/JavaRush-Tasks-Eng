@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.pro.task16.task1604"\n\nDay of the week when you were born
+
+Initialize the birthDate variable using a GregorianCalendar object that stores the date of your birth. Implement the getDayOfWeek(Calendar calendar) method so that it returns the English name of the day of the week that corresponds to the calendar parameter.
+Remember that in the Gregorian calendar the week starts on Sunday.
+
+
+Требования:
+1.	The birthDate variable must be initialized when it is declared.
+2.	The getDayOfWeek(Calendar calendar) method must return the day of the week that corresponds to the calendar parameter.
+
+

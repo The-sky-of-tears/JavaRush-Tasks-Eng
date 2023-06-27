@@ -1,0 +1,10 @@
+taskKey="en.codegym.task.pro.task16.task1611"\n\nYou only need to count
+
+The while loop in the main method should run exactly four times so that 4 lines are displayed on the screen.
+You should only make changes to the amazingMethod method.
+
+
+Требования:
+1.	The amazingMethod method needs to be modified so that the program prints 4 lines when it is run.
+
+

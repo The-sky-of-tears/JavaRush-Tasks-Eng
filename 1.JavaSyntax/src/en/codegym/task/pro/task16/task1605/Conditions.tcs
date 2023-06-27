@@ -1,0 +1,18 @@
+taskKey="en.codegym.task.pro.task16.task1605"\n\nPocket teleporter
+
+In the Solution class, the INVENTION_DAY constant contains the invention date for a new popular gadget &mdash; the pocket teleporter.
+
+Implement the isTeleportInvented method, which takes a date as an argument and compares it with INVENTION_DAY. If the passed date is after the invention date, output the following: &quot;Please pick up your pocket teleporter. Thanks for waiting!&quot; &mdash; and return true.
+If the passed date is before the invention date, output the following: &quot;Sorry, teleportation hasn&#39;t been invented yet. Come back in 10 years.&quot; &mdash; and return false.
+
+In a loop in the main method, call isTeleportInvented and pass currentDay as the argument.
+If the method returns false, add 10 years to currentDay. Otherwise, exit the loop.
+
+
+Требования:
+1.	The isTeleportInvented method should display the appropriate caption and return true if the passed date is greater than INVENTION_DAY.
+2.	The isTeleportInvented method should display the appropriate caption and return false if the passed date is less than INVENTION_DAY.
+3.	Every time isTeleportInvented returns false, you need to increment currentDay by 10 years.
+4.	The isTeleportInvented method should be called until it returns true.
+
+

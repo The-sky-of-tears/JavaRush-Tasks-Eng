@@ -1,0 +1,22 @@
+taskKey="en.codegym.task.pro.task16.task1620"\n\nAnother simple pattern
+
+In the main method, display the zonedDateTime variable as follows:
+4 9.3.19 06:03:07.319180500 Europe/Kiev
+
+Where:
+
+- 4 is the number of the day of the week, i.e. Thursday;
+- 9 is the day of the month;
+- 3 is the month;
+- 19 is the year;
+- 06 is the hours;
+- 03 is the minutes;
+- 07 is the seconds;
+- 319180500 is the nanoseconds;
+- Europe/Kiev is the time zone.
+
+
+Требования:
+1.	The main method should display the value of the zonedDateTime variable in accordance with the pattern.
+
+

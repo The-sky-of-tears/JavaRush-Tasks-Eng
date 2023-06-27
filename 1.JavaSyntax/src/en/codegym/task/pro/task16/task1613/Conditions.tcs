@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.pro.task16.task1613"\n\nFiltering out the weekend
+
+Implement the isWeekend method. It should determine whether the dateTime parameter represents a moment during the weekend.
+We will take the weekend to be between 10:00 PM Friday (inclusive) and 11:00 PM Sunday (not inclusive).
+
+
+Требования:
+1.	The isWeekend method should return true if the dateTime parameter falls within the specified time period.
+2.	The isWeekend method should return false if the dateTime parameter does not fall within the specified time period.
+
+

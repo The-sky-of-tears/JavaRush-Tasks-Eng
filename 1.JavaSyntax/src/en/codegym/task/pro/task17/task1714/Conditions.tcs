@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task17.task1714"\n\nFly or swim?
+
+There are 2 interfaces &mdash; CanSwim and CanFly &mdash; that indicate whether an object can swim and fly, respectively.
+Arrange these interfaces appropriate for the Zeppelin, Ship, and JamesBondCar classes in accordance with their capabilities.
+
+Remember that James Bond&#39;s car can do everything.
+
+
+Требования:
+1.	The Zeppelin class should implement the CanFly interface.
+2.	The Ship class should implement the CanSwim interface.
+3.	The JamesBondCar class should implement the CanFly and CanSwim interfaces.
+
+

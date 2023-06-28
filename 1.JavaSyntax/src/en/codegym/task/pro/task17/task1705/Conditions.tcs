@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.pro.task17.task1705"\n\nSpace Odyssey Part 3
+
+Let&#39;s make our previous example more accurate and universal.
+The order in which astronauts are added to the astronauts list won&#39;t always be known.
+In order to properly assign tasks to crew members, we need to determine who each astronaut is.
+To do this, in the performWork() method, iterate through all the astronauts in a loop.
+Use the instanceof operator to determine who each astronaut is and pass it as an argument to the corresponding method:
+Human objects &mdash; to the pilot(Human human) method;
+Dog objects &mdash; to the chartCourse(Dog dog) method;
+Cat objects &mdash; to the research(Cat cat) method.
+
+The performWork() method should work correctly regardless of the number of astronauts and the order in which they are added to the astronauts list.
+
+
+Требования:
+1.	The performWork() method should call pilot(Human human) for each Human object in the astronauts list.
+2.	The performWork() method should call chartCourse(Dog dog) for each Dog object in the astronauts list.
+3.	The performWork() method should call research(Cat cat) for each Cat in the astronauts list.
+
+

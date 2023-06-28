@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task17.task1710"\n\nFrom abstraction to reality
+
+The Person class is declared as abstract. This means that we cannot create an instance of it.
+Make this a normal class and then add any missing logic that is generally required by the principle of encapsulation:
+getters should return the corresponding fields, and setters should set values to the corresponding fields.
+
+
+Требования:
+1.	The Person class should not be abstract.
+2.	The getName() method must return the value of the name field.
+3.	The setName(String) method must assign the passed value to the name field.
+4.	The getAge() method must return the value of the age field.
+5.	The setAge(int) method must assign the passed value to the age field.
+
+

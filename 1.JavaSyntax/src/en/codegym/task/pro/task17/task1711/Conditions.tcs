@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.pro.task17.task1711"\n\nMeans of movement
+
+Create two interfaces &mdash; Swimmable and Flyable.
+In the future, they may be used to refer to classes whose objects can swim or fly.
+
+
+Требования:
+1.	A public Swimmable interface must be created.
+2.	A public Flyable interface must be created.
+
+

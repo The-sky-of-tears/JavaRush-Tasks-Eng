@@ -1,0 +1,17 @@
+taskKey="en.codegym.task.pro.task17.task1703"\n\nSpace Odyssey Part 1
+
+Before the spaceship sets off to surf the universe, we need to invite the crew on board.
+The chosen crew will consist of 2 humans, 1 dog, and 1 cat.
+In the createCrew() method, add the required number of instances of the appropriate classes to the astronauts list.
+
+Hint:
+To add objects of different classes to the same list, they need to have a common ancestor. Make the relevant classes inherit Astronaut. Anyone can become a space explorer :)
+
+
+Требования:
+1.	The Human, Dog, and Cat classes should inherit Astronaut.
+2.	Two Human objects should be added to the astronauts list.
+3.	One Dog object should be added to the astronauts list.
+4.	One Cat object should be added to the astronauts list.
+
+

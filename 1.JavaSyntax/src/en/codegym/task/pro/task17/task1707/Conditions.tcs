@@ -1,0 +1,27 @@
+taskKey="en.codegym.task.pro.task17.task1707"\n\nPets are different
+
+The Pet class is the parent class of the Cat and Dog classes.
+It implements the printInfo() method, which reports that the given object is a pet.
+In the Cat and Dog classes, override the printInfo() method, adding to its functionality as follows:
+
+- first, call the parent class&#39;s printInfo() method;
+- then also display &quot;I don&#39;t like people.&quot; for the Cat class or &quot;I like people.&quot; for the Dog class.
+
+Example output for the Cat class:
+I&#39;m a pet.
+I don&#39;t like people.
+
+Example output for the Dog class:
+I&#39;m a pet.
+I like people.
+
+
+Требования:
+1.	The printInfo() method should be overridden in the Cat class.
+2.	The printInfo() method should be overridden in the Dog class.
+3.	The Cat class&#39;s printInfo() method should call the printInfo() method of the parent class.
+4.	The Dog class&#39;s printInfo() method should call the printInfo() method of the parent class.
+5.	The printInfo() method of the Cat class should display text in accordance with the task conditions.
+6.	The printInfo() method of the Dog class should display text in accordance with the task conditions.
+
+

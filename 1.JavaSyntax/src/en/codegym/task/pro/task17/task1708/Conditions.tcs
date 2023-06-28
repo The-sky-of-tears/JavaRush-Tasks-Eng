@@ -1,0 +1,17 @@
+taskKey="en.codegym.task.pro.task17.task1708"\n\nMinimum and maximum
+
+In this task, you need to create a versatile utility for finding minimum and maximum numbers.
+In the MinMaxUtil class, create public static min() and max() methods that accept integer (int) values as arguments and return the minimum and maximum of the inputs, respectively.
+
+Each of the methods must be overloaded so that the method can be called with two, three, four, and five parameters.
+The bottom line is that you need to create 8 methods: 4 for min() and 4 for max().
+All method arguments must be ints.
+
+
+Требования:
+1.	In the MinMaxUtil class, 4 overloaded min() methods should be created in accordance with the task conditions.
+2.	In the MinMaxUtil class, 4 overloaded max() methods should be created in accordance with the task conditions.
+3.	The min() methods should return the minimum of the passed numbers.
+4.	The max() methods should return the maximum of the passed numbers.
+
+

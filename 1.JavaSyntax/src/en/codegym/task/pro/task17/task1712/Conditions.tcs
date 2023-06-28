@@ -1,0 +1,18 @@
+taskKey="en.codegym.task.pro.task17.task1712"\n\nEdible or inedible
+
+Implement the Eatable interface only for the classes that represent edible items in this list:
+Apple is a sweet apple
+Carrot is a crunchy carrot
+Fire is a hot fire
+Fish is a fresh fish
+Stone is a rough stone
+
+
+Требования:
+1.	The Apple class should implement the Eatable interface.
+2.	The Carrot class should implement the Eatable interface.
+3.	The Fire class should not implement the Eatable interface.
+4.	The Fish class should implement the Eatable interface.
+5.	The Stone class should not implement the Eatable interface.
+
+

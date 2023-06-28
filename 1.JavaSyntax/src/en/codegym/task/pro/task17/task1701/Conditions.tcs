@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task17.task1701"\n\nCorrect movement
+
+The Bat class inherits the Animal class. Everything is makes sense except that when we call the move() method on a Bat object, it displays &quot;I&#39;m running!&quot;.
+Why run when you can fly?
+Override the move() method in the Bat class so that it displays &quot;I&#39;m flying!&quot;.
+The main() method is not involved in testing.
+
+
+Требования:
+1.	Don&#39;t change the Animal class.
+2.	The Bat class must inherit Animal.
+3.	The Bat class must override the move() method.
+4.	Calling the move() method on a Bat object should display &quot;I&#39;m flying!&quot; on the console.
+
+

@@ -1,0 +1,21 @@
+taskKey="en.codegym.task.pro.task17.task1704"\n\nSpace Odyssey Part 2
+
+All crew members climbed aboard, and the spacecraft has successfully entered outer space.
+Now it&#39;s time for the crew members to perform their duties:
+The humans have to pilot the ship, the dog needs to navigate, and the cat must research outer space.
+
+Assign crew members&#39; duties in the performWork() method.
+
+To do this, get all the humans from the astronauts list (you know what their indexes are) and pass them to the pilot(Human human) method, pass the dog to the chartCourse(Dog dog) method, and pass the cat to the research(Cat cat) method.
+Do not change the other methods.
+
+Hint:
+The astronauts list contains Astronaut objects. To call the pilot(), chartCourse(), and research() methods, the Astronaut object must first be cast to the correct type.
+
+
+Требования:
+1.	The performWork() method should call pilot(Human human) 2 times. All the Human objects in the astronauts list should be passed as arguments.
+2.	The performWork() method should call chartCourse(Dog dog) 1 time. The Dog object in the astronauts list should be passed as the argument.
+3.	The performWork() method should call research(Cat cat) 1 time. The Cat object in the astronauts list should be passed as the argument.
+
+

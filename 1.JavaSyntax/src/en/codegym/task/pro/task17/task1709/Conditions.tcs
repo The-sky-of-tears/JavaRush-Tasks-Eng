@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task17.task1709"\n\nAbstract shapes
+
+The Shape class represents a geometric shape. In the future, it will be possible to make a specific shape inherit it.
+This specific shape will be able to calculate its perimeter and area. Different geometric shapes use different formulas to calculate these values.
+And since neither the perimeter nor the area can be calculated for an abstract shape, the Shape class should be made abstract.
+
+Also let&#39;s also prepare for the future by creating abstract getPerimeter() and getArea() methods here. These methods will return a double.
+
+
+Требования:
+1.	The Shape class should be abstract.
+2.	The Shape class should have an abstract double getPerimeter() method.
+3.	The Shape class should have an abstract double getArea() method.
+
+

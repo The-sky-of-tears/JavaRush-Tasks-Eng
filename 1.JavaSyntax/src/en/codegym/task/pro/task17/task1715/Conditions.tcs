@@ -1,0 +1,19 @@
+taskKey="en.codegym.task.pro.task17.task1715"\n\nMozartville and Chopintown
+
+The village of Mozartville has a string orchestra, and the town of Chopintown has a keyboard orchestra.
+One fine day, carts carrying musicians from the two villages collided at a crossroads, and everything got mixed up in a heap.
+Help the artists sort out their instruments. And of course, once that is done, both orchestras should give a concert.
+
+To do this:
+
+- in the createKeyboardOrchestra() method, add one organ and three pianos to the orchestra list;
+- in the createStringOrchestra() method, add two violins and one guitar to the orchestra list;
+- the playOrchestra() method should call the play() method on all items in the orchestra list.
+
+
+Требования:
+1.	The createKeyboardOrchestra() method should add one Organ and three Piano objects to the orchestra list.
+2.	The createStringOrchestra() method must add two Violin objects and one Guitar object to the orchestra list.
+3.	The playOrchestra() method should call the play() method on all items in the orchestra list.
+
+

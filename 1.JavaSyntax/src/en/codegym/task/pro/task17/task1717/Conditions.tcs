@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task17.task1717"\n\nWho is flying?
+
+The Eagle, Raven, and Aircraft classes implement the CanFly interface, which has a default implementation of the int getMaxSpeed() method that returns the value 80.
+This implementation is incorrect, since the real maximum speed of an Eagle is 180 km/h, and for a Raven it is 48, and for an Aircraft it is 1200.
+
+You need to remove the default implementation of the getMaxSpeed() method from the CanFly interface (keep the method declaration) and implement it in each of the classes.
+For each class, use the correct maximum speed.
+
+
+Требования:
+1.	The int getMaxSpeed() method of the CanFly interface should not be marked as default.
+2.	The int getMaxSpeed() method of the Eagle class should return 180.
+3.	The int getMaxSpeed() method of the Raven class should return 48.
+4.	The int getMaxSpeed() method of the Aircraft class should return 1200.
+
+

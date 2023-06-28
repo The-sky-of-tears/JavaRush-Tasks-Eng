@@ -1,0 +1,18 @@
+taskKey="en.codegym.task.pro.task17.task1702"\n\nGeometry for dummies
+
+The Triangle, Rectangle, and Circle classes are geometric shapes, which is why they inherit the Shape class.
+Override the printInfo() method in them so that the name of each specific shape is displayed on the console:
+For the Triangle class, display &quot;Triangle&quot;;
+Rectangle &mdash; &quot;Rectangle&quot;;
+Circle &mdash; &quot;Circle&quot;.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	Don&#39;t change the Shape class.
+2.	The classes representing geometric shapes should inherit Shape.
+3.	The classes representing geometric shapes should override the printInfo() method.
+4.	Calling the printInfo() method on a geometric shape object should display its name on the console.
+
+

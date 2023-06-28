@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task17.task1716"\n\nRoad traffic
+
+The Car and Bus classes implement the Vehicle interface. However, their implementations of some of its methods are the same.
+Implement these methods as default in the Vehicle interface itself, and then remove them from the Car and Bus classes.
+
+
+Требования:
+1.	The Vehicle interface should implement the default void start() method.
+2.	The Vehicle interface should implement the default void stop() method.
+3.	The Car class should not implement the void start() and void stop() methods.
+4.	The Bus class should not implement the void start() and void stop() methods.
+
+

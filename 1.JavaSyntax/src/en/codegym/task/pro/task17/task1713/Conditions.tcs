@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task17.task1713"\n\nLet the show begin!
+
+A real entertainer should have more than one skill.
+Dancing and singing are both essential entertainment skills.
+Here are 3 interfaces:
+Dancer indicates an object can dance,
+Singer indicates that an object can sing,
+Entertainer indicates that an object can entertain.
+
+Think about what kind of inheritance structure makes sense for these interfaces. Make one interface inherit the other two.
+
+
+Требования:
+1.	One interface must inherit the other two.
+
+

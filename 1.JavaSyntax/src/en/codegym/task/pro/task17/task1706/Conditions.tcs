@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task17.task1706"\n\nCarnivores vs Herbivores
+
+Here are 4 classes representing animals &mdash; Cow, Lion, Wolf and Elephant. Cows (Cow) and elephants (Elephant) are herbivores, so they inherit the Herbivore class.
+But lions (Lion) and wolves (Wolf) are carnivores, so they inherit the Carnivore class. In turn, the Herbivore and Carnivore classes inherit Animal.
+In the Solution class, implement the printPreferredFood(Animal animal) method, which should display the preferred food of the animal passed as the argument:
+
+- if the animal is a carnivore, you need to display &quot;Loves meat&quot;;
+- if the animal is a herbivore, display &quot;Loves grass&quot;.
+
+
+Требования:
+1.	The printPreferredFood(Animal animal) method should display &quot;Loves meat&quot; if the passed argument is a carnivore (Carnivore).
+2.	The printPreferredFood(Animal animal) method should display &quot;Loves grass&quot; if a herbivore (Herbivore) is passed as the argument.
+
+

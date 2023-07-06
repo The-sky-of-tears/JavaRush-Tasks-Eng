@@ -1,0 +1,23 @@
+taskKey="en.codegym.task.pro.task18.task1821"\n\nThe cheapest car
+
+A car, as represented by the Car class, has two properties: the name is stored in the name field, and the price is stored in the price field.
+The Solution class performs two lookup operations:
+
+- The getCheapestCar(Stream&lt;Car&gt;) method searches for the cheapest car in a list;
+- The getCheaperCar(Stream&lt;Car&gt;, Car) method searches another list for a car that is cheaper than the one passed to the getCheaperCar(Stream&lt;Car&gt;) method.
+
+The methods do not return the car itself (a Car object), but rather an Optional&lt;Car&gt; object.
+
+Hint:
+Use the min() method to find the element with the minimum value for the relevant property in the data stream, and use the findFirst() method to find the first matching element in the filtered data stream.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the getCheapestCar(Stream&lt;Car&gt;) method, you need to call the min() method on a Stream&lt;Car&gt; object.
+2.	In the getCheaperCar(Stream&lt;Car&gt;, Car) method, you need to call the findFirst() method on a Stream&lt;Car&gt; object.
+3.	The getCheapestCar(Stream&lt;Car&gt;) method must be implemented in accordance with the task conditions.
+4.	The getCheaperCar(Stream&lt;Car&gt;, Car) method must be implemented in accordance with the task conditions.
+
+

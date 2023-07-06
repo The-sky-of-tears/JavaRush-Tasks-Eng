@@ -1,0 +1,18 @@
+taskKey="en.codegym.task.pro.task18.task1819"\n\nWhat if an element of a list is null?
+
+The printList(List&lt;String&gt;) method&#39;s job is to display all the elements of the list passed as an argument, in the same order they exist in the list.
+But there is one caveat. The list may contain elements that are equal to null.
+
+Your job is to display all the elements of the list on the console. For null elements, display the phrase: This element is null
+The printList(List&lt;String&gt;) method must not use loops, an if-else statement, or a ternary operator.
+To check whether a string is null and replace it with another string, an Optional&lt;String&gt; object has the orElse method.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the printList(List&lt;String&gt;) method, you need to call the orElse() method on an Optional&lt;String&gt; object.
+2.	The printList(List&lt;String&gt;) method must be implemented in accordance with the task conditions.
+3.	The printList(List&lt;String&gt;) method should not use loops, an if-else statement, or a ternary operator.
+
+

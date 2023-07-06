@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task18.task1815"\n\nData conversion
+
+An account (Account class) has a name (name field) and an email address (email field). You need the getEmails(ArrayList&lt;Account&gt;) method in the Solution class to return a stream of email addresses for all the accounts in the list passed as the input argument.
+
+Hint:
+To convert a data stream from one type to another, use a Stream&lt;Account&gt; object&#39;s map() method.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the public static getEmails(ArrayList&lt;Account&gt;) method, you need to call the map() method on a Stream&lt;Account&gt; object.
+2.	The getEmails(ArrayList&lt;Account&gt;) method must be implemented in accordance with the task conditions.
+
+

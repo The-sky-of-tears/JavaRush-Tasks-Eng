@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task18.task1822"\n\nFrom a data stream to a list
+
+To solve this task, the getPositiveNumbers(Stream&lt;Integer&gt;) method needs to convert the input stream of numbers into a list of numbers greater than zero.
+Implement this method using the collect() method on a Stream&lt;Integer&gt; object. Pass the desired collector (an Collector&lt;List&lt;Integer&gt;&gt; object) as an argument.
+A suitable object can be obtained by calling the static toList() method of the Collectors class.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the public static getPositiveNumbers(Stream&lt;Integer&gt;) method, you need to call the static toList() method of the Collectors class.
+2.	The getPositiveNumbers(Stream&lt;Integer&gt;) method must be implemented in accordance with the task conditions.
+
+

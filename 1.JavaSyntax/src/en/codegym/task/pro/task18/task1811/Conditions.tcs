@@ -1,0 +1,18 @@
+taskKey="en.codegym.task.pro.task18.task1811"\n\nGetting a Stream
+
+In this task, you need to implement two methods so that:
+
+1. The public static getStreamFromArrayList(ArrayList&lt;String&gt;) method returns a stream of strings from a list of strings passed as an argument.
+2. The public static getStreamFromArray(Integer[] array) method returns a stream of numbers from an array of numbers passed as an argument.
+Hint:
+To get a data stream from a collection, you need to call its stream() method.
+To get a data stream from an array, you need to call the java.util.Arrays class&#39;s static stream() method and pass in the array.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	The getStreamFromArrayList(ArrayList&lt;String&gt;) method must be implemented in accordance with the task conditions.
+2.	The getStreamFromArray(Integer[] array) method must be implemented in accordance with the task conditions.
+
+

@@ -1,0 +1,17 @@
+taskKey="en.codegym.task.pro.task18.task1817"\n\nAnalyzing a stream of numbers
+
+The program analyzes a stream of numbers. The logic of the program is as follows:
+
+1. The hasNegativeEvenNumbers(Stream&lt;Integer&gt;) method returns true if there is even one negative even number in the input stream, and false if there are none. To search for numbers in a stream, use a Stream&lt;Integer&gt; object&#39;s anyMatch() method.
+2. The hasOnlyPositiveNumbers(Stream&lt;Integer&gt;) method returns true if there are only positive numbers in the input stream, and false if there is even one negative number. To search for numbers in a stream, use a Stream&lt;Integer&gt; object&#39;s allMatch() method.
+3. The hasOnlyNegativeNumbers(Stream&lt;Integer&gt;) method returns true if there are only negative numbers in the input stream, and false if there is even one positive number. To search for numbers in a stream, use a Stream&lt;Integer&gt; object&#39;s noneMatch() method.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	The public static hasNegativeEvenNumbers(Stream&lt;Integer&gt;) method must be implemented in accordance with the task conditions.
+2.	The public static hasOnlyPositiveNumbers(Stream&lt;Integer&gt;) method must be implemented in accordance with the task conditions.
+3.	The public static hasOnlyNegativeNumbers(Stream&lt;Integer&gt;) method must be implemented in accordance with the task conditions.
+
+

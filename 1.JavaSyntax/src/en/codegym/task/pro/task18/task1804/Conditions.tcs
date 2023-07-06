@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task18.task1804"\n\nIntroducing lambda expressions
+
+Here is a program that sorts a list of numbers in ascending order.
+The sortNumbers(ArrayList&lt;Integer&gt;) method accepts a list whose elements are to be sorted.
+The sorting is accomplished using the Collections.sort(ArrayList&lt;Integer&gt;, Comparator&lt;Integer&gt;) method, whose parameters are a list of numbers and a comparator.
+
+Your task is to rewrite the implementation of the sortNumbers(ArrayList&lt;Integer&gt;) method so that it uses a lambda expression instead of using a Comparator&lt;Integer&gt; anonymous inner class.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	Replace the Comparator&lt;Integer&gt; anonymous inner class with a lambda expression.
+2.	In the sortNumbers(ArrayList&lt;Integer&gt;) method, you need to sort the list of numbers in ascending order.
+
+

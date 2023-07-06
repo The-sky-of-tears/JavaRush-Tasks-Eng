@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task18.task1813"\n\nThe future is electric cars
+
+The modern world is abandoning internal combustion engines, and the era of electric cars is just around the corner.
+You need the program to retain just the electric cars and discard the rest.
+Accordingly, there is a onlyElectricCars(ArrayList&lt;Car&gt;) method that filters the list of cars passed as an input argument.
+This method returns a stream of filtered data, specifically, a stream of cars whose isElectric field is true.
+Calling the filter() method on a Stream&lt;Car&gt; object will help you with this.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the onlyElectricCars(ArrayList&lt;Car&gt;) method, you need to call the filter() method on a Stream&lt;Car&gt; object.
+2.	You need the onlyElectricCars(ArrayList&lt;Car&gt;) method to return a stream of electric cars.
+
+

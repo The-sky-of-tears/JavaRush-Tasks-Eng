@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task18.task1809"\n\nFarewell to method references
+
+In the Solution class, the public print(ArrayList&lt;Integer&gt;) method displays all the elements of the list in order.
+The method is currently implemented using the list&#39;s forEach() method, which takes a method reference.
+You need to rewrite the implementation of the print(ArrayList&lt;Integer&gt;) method so that the list&#39;s forEach() method takes lambda expressions instead of a method reference.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the print(ArrayList&lt;Integer&gt;) method, you need to use the list&#39;s forEach() method that accepts lambda expressions.
+2.	In the print(ArrayList&lt;Integer&gt;) method, you need to display all the elements of the passed list.
+
+

@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task18.task1825"\n\nFrom a data stream to a string
+
+The getString(Stream&lt;String&gt;) method needs to convert the incoming stream of strings to a string whose words are separated by a space.
+The order of the words in the resulting string must match the order of the elements in the stream.
+Implement this method using the collect() method on a Stream&lt;String&gt; object.
+Pass the desired collector (an Collector&lt;String&gt; object) as an argument.
+A suitable object can be obtained by calling the static joining() method of the Collectors class.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the public static getString(Stream&lt;String&gt;) method, you need to call the static joining() method of the Collectors class.
+2.	The getString(Stream&lt;String&gt;) method must be implemented in accordance with the task conditions.
+
+

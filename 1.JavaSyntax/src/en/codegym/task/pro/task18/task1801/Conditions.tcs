@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task18.task1801"\n\nTwo implementations of one interface
+
+The Runnable interface declares the run() method and has two implementations: one in the Car class and in the Plane class.
+The Solution class has a public static ArrayList&lt;Runnable&gt; list field, as well as two public static methods:
+addToList(Runnable), which adds to the list the element received as an input parameter, and the runList() method, which calls the run() method on each element of the list.
+Your task is to implement these methods.
+
+The main method is not tested.
+
+
+Требования:
+1.	In the public static void addToList(Runnable) method, you need to add the element received as an input parameter to the list list.
+2.	In the public static void runList() method, you need to call the run() method on each element of the list list.
+
+

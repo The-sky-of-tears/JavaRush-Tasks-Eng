@@ -1,0 +1,26 @@
+taskKey="en.codegym.task.pro.task18.task1805"\n\nFarewell to lambda expressions
+
+Here is a program that sorts a list of strings by their length in ascending order.
+The sortStringsByLength(ArrayList&lt;String&gt;) method does this.
+The strings are sorted using the Collections.sort(ArrayList&lt;String&gt;, Comparator&lt;String&gt;) method, which takes a list of strings and a comparator in the form of a lambda expression.
+
+Your task is to rewrite the implementation of the sortStringsByLength(ArrayList&lt;String&gt;) method so that instead of taking a lambda expression it uses a StringComparator object that implements the Comparator&lt;String&gt; interface.
+Do this without changing the logic of the sortStringsByLength(ArrayList&lt;String &gt;) method.
+
+In other words, in the StringComparator class, the int compare(String s1, String s2) method should return a numeric value according to these rules:
+
+- a negative number if the length of string s1 is less than the length of string s2;
+- a positive number if the length of string s1 is greater than the length of string s2;
+- 0 if the lengths of strings s1 and s2 are the same.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In a separate file, you need to create a public StringComparator class that implements the Comparator&lt;String&gt; interface.
+2.	In the StringComparator class, you need to create a public int compare(String s1, String s2) method.
+3.	The compare(String s1, String s2) method must be implemented in accordance with the task conditions.
+4.	In the sortStringsByLength(ArrayList&lt;String&gt;) method, you need to sort the list of strings in ascending order of their length.
+5.	In the sortStringsByLength(ArrayList&lt;String&gt;) method, you need to use your own comparator (a StringComparator object) to sort the list of strings in ascending order of length.
+
+

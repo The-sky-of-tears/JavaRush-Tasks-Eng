@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task18.task1814"\n\nNo repetitions
+
+The getDistinct(ArrayList&lt;String&gt;) method receives a list of words that includes repetitions. Your task is to implement this method so that it returns a stream of words without any repetitions (each word appears only once).
+Calling the distinct() method on a Stream&lt;String&gt; object will help you with this.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the public static getDistinct(ArrayList&lt;String&gt;) method, you need to call the distinct() method on a Stream&lt;String&gt; object.
+2.	You need the getDistinct(ArrayList&lt;String&gt;) method to return a stream of words without any repetitions.
+
+

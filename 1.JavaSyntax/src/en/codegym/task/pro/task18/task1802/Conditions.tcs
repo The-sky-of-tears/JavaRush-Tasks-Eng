@@ -1,0 +1,21 @@
+taskKey="en.codegym.task.pro.task18.task1802"\n\nSorting by age
+
+The Solution class has a static students field, which is populated by students (Student objects) in the main() method.
+A student (Student class) has a name (name field) and an age (age field). You need to sort the students in the program by age in descending order (from oldest to youngest).
+To do this, use the Collections.sort(ArrayList&lt;Student&gt;, Comparator&lt;Student&gt;) method, which is passed a list of students (students) and a comparator for sorting in descending order of age.
+
+Your task is to implement this comparator. To do this, in the AgeComparator class, you need to implement the Comparator&lt;Student&gt; interface and implement the int compare(Student student1, Student student2) method, which returns a numeric value according to the following rules:
+
+- a negative number if the age of student1 is greater than the age of student2;
+- a positive number if the age of student1 is less than the age of student2;
+- 0 if the ages of student1 and student2 are the same.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the AgeComparator class, you need to implement the Comparator&lt;Student&gt; interface.
+2.	In the AgeComparator class, you need to create a public int compare(Student, Student) method.
+3.	The compare(Student, Student) method must be implemented in accordance with the task conditions.
+
+

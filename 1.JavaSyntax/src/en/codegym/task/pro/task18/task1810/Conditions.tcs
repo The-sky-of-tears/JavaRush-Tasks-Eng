@@ -1,0 +1,19 @@
+taskKey="en.codegym.task.pro.task18.task1810"\n\nConvert a list to an array
+
+The Solution class has two public static methods:
+
+- String[] toStringArray(ArrayList&lt;String&gt;), in which you need to convert a list of strings into an array of strings and return it;
+- Integer[] toIntegerArray(ArrayList&lt;Integer&gt;), in which you need to convert a list of numbers into an array of numbers and return it.
+
+To convert a list to an array, use the list&#39;s toArray() method, which needs to be passed a reference to an array constructor whose type matches the list type.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the toStringArray(ArrayList&lt;String&gt;) method, you need to call the toArray() method on the list received as an argument, passing in a reference to the array constructor whose type corresponds to the type of the list.
+2.	You need the toStringArray(ArrayList&lt;String&gt;) method to return an array of strings with the same elements and in the same order as in the passed list.
+3.	In the toIntegerArray(ArrayList&lt;Integer&gt;) method, you need to call the toArray() method on the list received as an argument, passing in a reference to the array constructor whose type corresponds to the type of the list.
+4.	You need the toIntegerArray(ArrayList&lt;Integer&gt;) method to return an array of numbers with the same elements and in the same order as in the passed list.
+
+

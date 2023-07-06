@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task18.task1816"\n\nData conversion 2
+
+Implement the toUpperCase(Stream&lt;String&gt;) method so that it returns a stream containing the same strings as in the input stream, only in uppercase.
+Since this will be a stream of other strings, use the map() method on a Stream&lt;String&gt; object to perform the conversion.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the public static toUpperCase(Stream&lt;String&gt;) method, you need to call the map() method on a Stream&lt;String&gt; object.
+2.	The toUpperCase(Stream&lt;String&gt;) method must be implemented in accordance with the task conditions.
+
+

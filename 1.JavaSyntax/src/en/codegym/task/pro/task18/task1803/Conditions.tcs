@@ -1,0 +1,22 @@
+taskKey="en.codegym.task.pro.task18.task1803"\n\nCodeGym mentors
+
+The Solution class has a static mentors field, which is populated with CodeGym mentors (CodeGymMentor objects) in the main() method.
+A mentor (CodeGymMentor class) has a name (name field). The program needs to sort the mentors by the length of their names in ascending order (from shortest to longest).
+
+To sort all the mentors in the mentors list, use the Collections.sort(ArrayList&lt;CodeGymMentor&gt;, Comparator&lt;CodeGymMentor&gt;) method, passing in the list of mentors (mentors) and a sorting comparator.
+
+Your task is to implement this comparator. To do this, in the NameComparator class, you need to implement the Comparator&lt;CodeGymMentor&gt; interface and implement the int compare(CodeGymMentor mentor1, CodeGymMentor mentor2) method, which returns a numeric value according to the following rules:
+
+- a negative number if the length of the first mentor&#39;s name (mentor1) is less than the length of the second mentor&#39;s name (mentor2);
+- a positive number if the length of the first mentor&#39;s name (mentor1) is greater than the length of the second mentor&#39;s name (mentor2);
+- 0 if the lengths of the names of both mentors (mentor1 and mentor2) are the same.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the NameComparator class, you need to implement the Comparator&lt;CodeGymMentor&gt; interface.
+2.	In the NameComparator class, you need to create a public int compare(CodeGymMentor, CodeGymMentor) method.
+3.	The compare(CodeGymMentor, CodeGymMentor) method must be implemented in accordance with the task conditions.
+
+

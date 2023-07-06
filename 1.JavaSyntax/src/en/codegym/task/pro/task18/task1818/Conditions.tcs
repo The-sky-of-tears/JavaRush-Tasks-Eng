@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task18.task1818"\n\nIs the product expired?
+
+In the Solution class, the hasExpiredProduct(Stream&lt;Product&gt;) method returns true if there is even one expired product in the input stream, and returns false if there are no such products.
+
+To check this, you need to compare the LocalDate expirationDate date (best-before date) with the current date (static now() method of the LocalDate method) for each product in the stream.
+If the expiration date is (strictly) less than the current date, then the stream has an expired product.
+To search for such products in a stream, use a Stream&lt;Product&gt; object&#39;s anyMatch() method.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the public static hasExpiredProduct(Stream&lt;Product&gt;) method, you need to call the anyMatch() method on a Stream&lt;Product&gt; object.
+2.	The hasExpiredProduct(Stream&lt;Product&gt;) method must be implemented in accordance with the task conditions.
+
+

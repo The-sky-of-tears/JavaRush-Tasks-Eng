@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task18.task1807"\n\nFarewell to foreach
+
+In the Solution class, the public print(ArrayList&lt;String&gt;) method displays all the elements of the list in order.
+The method is currently implemented using the list&#39;s forEach() method. You need to rewrite the implementation of the print(ArrayList&lt;String&gt;) method using a for statement without changing the logic of the method.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	In the print(ArrayList&lt;String&gt;) method, you need to use a for statement.
+2.	Don&#39;t use the list&#39;s forEach() method in the print(ArrayList&lt;String&gt;) method.
+3.	In the print(ArrayList&lt;String&gt;) method, you need to display all the elements of the passed list in order.
+
+

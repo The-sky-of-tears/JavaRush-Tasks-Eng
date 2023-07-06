@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task18.task1812"\n\nProgramming language rankings
+
+The Language class represents a programming language. This class has two fields: name, which is the name of the programming language, and ranking, which is the programming language&#39;s popularity ranking as of March 2022, according to TIOBE.
+You need the public static sortByRanking(ArrayList&lt;Language&gt;) method to sort the received list of programming languages in descending order of ranking, and return a sorted data stream (Stream&lt;Language&gt;).
+
+Hint:
+Because the ranking field is a Double, you need to use the static compare(Double, Double) method of the Double class or call the compareTo(Double) method on a Double object to perform the sort.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	The sortByRanking(ArrayList&lt;Language&gt;) method must be implemented in accordance with the task conditions.
+
+

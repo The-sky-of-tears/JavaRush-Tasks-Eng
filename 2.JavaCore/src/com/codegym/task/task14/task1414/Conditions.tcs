@@ -5,14 +5,14 @@ Read from the console to extend the functionality by analogy:
 1. Figure out what the program does.
 2. All classes must be inside the Solution class.
 3. Add Cartoon and Thriller classes.
-4. Understand how we get a SoapOpera object using the key &quot;soapOpera&quot;.
+4. Understand how we get a SoapOpera object using the myKey &quot;soapOpera&quot;.
 Following the pattern used to obtain a SoapOpera object:
-5. Add to MovieFactory.getMovie the ability to get a Cartoon object using the key &quot;cartoon&quot;.
-6. Add to MovieFactory.getMovie the ability to get a Thriller object using the key &quot;thriller&quot;.
+5. Add to MovieFactory.getMovie the ability to get a Cartoon object using the myKey &quot;cartoon&quot;.
+6. Add to MovieFactory.getMovie the ability to get a Thriller object using the myKey &quot;thriller&quot;.
 
 7. Read several keys (strings) from the console.
 7.1. Stop reading in strings as soon as a string is entered that does not match one of the following: &quot;cartoon&quot;, &quot;thriller&quot;, &quot;soapOpera&quot;.
-8. Create a Movie movie variable, and for each entered string (key):
+8. Create a Movie movie variable, and for each entered string (myKey):
 8.1. Get an object using MovieFactory.getMovie and assign it to the variable movie.
 8.2. Display the result of calling movie.getClass().getSimpleName().
 

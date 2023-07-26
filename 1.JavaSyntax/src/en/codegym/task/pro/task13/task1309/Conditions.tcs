@@ -1,6 +1,6 @@
 taskKey="en.codegym.task.pro.task13.task1309"\n\nStudent performance
 
-The Solution class declares a HashMap&lt;String, Double&gt; grades field, whose key is the student&#39;s full name,
+The Solution class declares a HashMap&lt;String, Double&gt; grades field, whose myKey is the student&#39;s full name,
 and whose value is the student&#39;s average grade. Your task is to implement the addStudents method,
 which will add 5 students together with their average grade to the grades collection.
 You can choose any values.

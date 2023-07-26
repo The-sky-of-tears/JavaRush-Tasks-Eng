@@ -9,9 +9,9 @@ taskKey="com.codegym.task.task14.task1413"\n\nComputer
 6. Add a private Keyboard field keyboard to the Computer class.
 7. Add a private Mouse field mouse to the Computer class.
 8. Add a private Monitor field monitor to the Computer class.
-9. Use the Alt+Insert key combination (on Windows) (Constructor command) to create a Computer class constructor with three parameters.
+9. Use the Alt+Insert myKey combination (on Windows) (Constructor command) to create a Computer class constructor with three parameters.
 10. Inside the constructor, use the parameters to initialize all three of the class&#39;s fields (variables).
-11. Create getters for the fields in the Computer (in the class, use the Alt+Insert key combination (on Windows) and select the Getter command).
+11. Create getters for the fields in the Computer (in the class, use the Alt+Insert myKey combination (on Windows) and select the Getter command).
 12. Each class and interface should be in a separate file.
 
 

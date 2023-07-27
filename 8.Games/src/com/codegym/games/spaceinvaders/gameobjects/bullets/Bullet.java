@@ -8,7 +8,7 @@ import java.util.List;
 public abstract class Bullet extends GameObject {
     public boolean isAlive = true;
 
-    private int dy;
+    private final int dy;
 
     public Bullet(double x, double y, Direction direction) {
         super(x, y);
@@ -21,22 +21,5 @@ public abstract class Bullet extends GameObject {
 
     public void kill() {
         isAlive = false;
-    }
-
-    public void checkHit(List<Bullet> bullets) {
-        if (bullets.isEmpty()) {
-            return;
-        }
-
-        for (Bullet bullet : bullets) {
-            if (bullet instanceof BossBullet) {
-                continue;
-            }
-            if (bullet.isAlive && this.isAlive && this.isCollision(bullet)) {
-                this.kill();
-                bullet.kill();
-                return;
-            }
-        }
     }
 }

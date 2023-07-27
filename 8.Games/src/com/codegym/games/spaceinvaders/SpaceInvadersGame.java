@@ -6,6 +6,7 @@ import java.util.List;
 import com.codegym.engine.cell.*;
 import com.codegym.games.spaceinvaders.gameobjects.bullets.Bullet;
 import com.codegym.games.spaceinvaders.gameobjects.EnemyFleet;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.PlayerBullet;
 import com.codegym.games.spaceinvaders.gameobjects.ships.PlayerShip;
 import com.codegym.games.spaceinvaders.gameobjects.Star;
 
@@ -48,33 +49,27 @@ public class SpaceInvadersGame extends Game {
     @Override
     public void onKeyPress(Key key) {
         switch (key) {
-            case SPACE:
+            case SPACE -> {
                 if (isGameStopped) {
                     createGame();
                     break;
                 }
-
                 Bullet bullet = playerShip.fire();
                 if (bullet != null && playerBullets.size() < PLAYER_BULLETS_MAX) {
                     playerBullets.add(bullet);
                 }
-
-                break;
-            case LEFT:
-                playerShip.setDirection(Direction.LEFT);
-                break;
-            case RIGHT:
-                playerShip.setDirection(Direction.RIGHT);
-                break;
+            }
+            case LEFT -> playerShip.setDirection(Direction.LEFT);
+            case RIGHT -> playerShip.setDirection(Direction.RIGHT);
         }
     }
 
     @Override
     public void onKeyReleased(Key key) {
-        if (key == key.LEFT && playerShip.getDirection() == Direction.LEFT) {
+        if (key == Key.LEFT && playerShip.getDirection() == Direction.LEFT) {
             playerShip.setDirection(Direction.UP);
         }
-        if (key == key.RIGHT && playerShip.getDirection() == Direction.RIGHT) {
+        if (key == Key.RIGHT && playerShip.getDirection() == Direction.RIGHT) {
             playerShip.setDirection(Direction.UP);
         }
     }
@@ -158,7 +153,7 @@ public class SpaceInvadersGame extends Game {
         int scoreForKills = enemyFleet.checkHit(playerBullets);
         score += scoreForKills;
         for (Bullet playerBullet : playerBullets) {
-            playerBullet.checkHit(enemyBullets);
+            ((PlayerBullet) playerBullet).checkHit(enemyBullets);
         }
 
         removeDeadBullets();

@@ -15,17 +15,10 @@ public class EnemyShip extends Ship {
 
     public void move(Direction direction, double speed) {
         switch (direction) {
-            case UP:
-                break;
-            case DOWN:
-                y += 2;
-                break;
-            case LEFT:
-                x -= speed;
-                break;
-            case RIGHT:
-                x += speed;
-                break;
+            case UP -> {}
+            case DOWN -> y += 2;
+            case LEFT -> x -= speed;
+            case RIGHT -> x += speed;
         }
     }
 
@@ -46,5 +39,4 @@ public class EnemyShip extends Ship {
                 ShapeMatrix.KILL_ENEMY_ANIMATION_SECOND,
                 ShapeMatrix.KILL_ENEMY_ANIMATION_THIRD);
     }
-
 }

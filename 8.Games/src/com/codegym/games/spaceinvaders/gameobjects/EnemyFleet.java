@@ -46,7 +46,7 @@ public class EnemyFleet {
     }
 
     public Bullet fire(Game game) {
-        if (ships.size() == 0) {
+        if (ships.isEmpty()) {
             return null;
         }
 
@@ -79,17 +79,11 @@ public class EnemyFleet {
     }
 
     public void deleteHiddenShips() {
-        Iterator<EnemyShip> shipIterator = ships.listIterator();
-        while (shipIterator.hasNext()) {
-            EnemyShip currentShip = shipIterator.next();
-            if (!currentShip.isVisible()) {
-                shipIterator.remove();
-            }
-        }
+        ships.removeIf(currentShip -> !currentShip.isVisible());
     }
 
     public double getBottomBorder() {
-        if (ships.size() == 0) {
+        if (ships.isEmpty()) {
             return 0;
         }
         
@@ -112,7 +106,8 @@ public class EnemyFleet {
             }
         }
 
-        ships.add(new Boss(STEP * COLUMNS_COUNT / 2 - ShapeMatrix.BOSS_ANIMATION_FIRST.length / 2 - 1, 5));
+        ships.add(new Boss(STEP * COLUMNS_COUNT / 2
+                - ShapeMatrix.BOSS_ANIMATION_FIRST.length / 2 - 1, 5));
     }
 
     private double getLeftBorder() {

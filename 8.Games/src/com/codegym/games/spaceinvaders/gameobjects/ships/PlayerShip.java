@@ -56,12 +56,8 @@ public class PlayerShip extends Ship {
         }
 
         switch (direction) {
-            case LEFT:
-                x--;
-                break;
-            case RIGHT:
-                x++;
-                break;
+            case LEFT -> x--;
+            case RIGHT -> x++;
         }
 
         if (x < 0) {

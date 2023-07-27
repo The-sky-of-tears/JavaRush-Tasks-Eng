@@ -4,11 +4,13 @@ import com.codegym.engine.cell.Game;
 import com.codegym.games.spaceinvaders.Direction;
 import com.codegym.games.spaceinvaders.ShapeMatrix;
 import com.codegym.games.spaceinvaders.SpaceInvadersGame;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.Bullet;
+import com.codegym.games.spaceinvaders.gameobjects.ships.Boss;
+import com.codegym.games.spaceinvaders.gameobjects.ships.EnemyShip;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Objects;
 
 public class EnemyFleet {
     private static final int ROWS_COUNT = 3;

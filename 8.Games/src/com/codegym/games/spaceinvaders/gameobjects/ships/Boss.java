@@ -1,7 +1,10 @@
-package com.codegym.games.spaceinvaders.gameobjects;
+package com.codegym.games.spaceinvaders.gameobjects.ships;
 
 import com.codegym.games.spaceinvaders.Direction;
 import com.codegym.games.spaceinvaders.ShapeMatrix;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.BossBullet;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.Bullet;
+import com.codegym.games.spaceinvaders.gameobjects.ships.EnemyShip;
 
 public class Boss extends EnemyShip {
     private int frameCount = 0;
@@ -28,9 +31,9 @@ public class Boss extends EnemyShip {
         }
 
         if (matrix == ShapeMatrix.BOSS_ANIMATION_FIRST) {
-            return new Bullet(x + 6, y + height, Direction.DOWN);
+            return new BossBullet(x + 6, y + height);
         } else {
-            return new Bullet(x, y + height, Direction.DOWN);
+            return new BossBullet(x, y + height);
         }
     }
 

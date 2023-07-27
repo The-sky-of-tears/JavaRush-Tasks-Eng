@@ -1,9 +1,9 @@
-package com.codegym.games.spaceinvaders.gameobjects;
+package com.codegym.games.spaceinvaders.gameobjects.ships;
 
 import com.codegym.games.spaceinvaders.Direction;
 import com.codegym.games.spaceinvaders.ShapeMatrix;
-
-import java.util.List;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.Bullet;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.EnemyBullet;
 
 public class EnemyShip extends Ship {
     public int score = 15;
@@ -31,7 +31,7 @@ public class EnemyShip extends Ship {
 
     @Override
     public Bullet fire() {
-        return new Bullet(x + width / 2, y + height, Direction.DOWN);
+        return new EnemyBullet(x + width / 2, y + height);
     }
 
     @Override

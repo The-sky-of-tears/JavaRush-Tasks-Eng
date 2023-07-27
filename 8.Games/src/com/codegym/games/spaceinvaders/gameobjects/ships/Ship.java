@@ -1,6 +1,8 @@
-package com.codegym.games.spaceinvaders.gameobjects;
+package com.codegym.games.spaceinvaders.gameobjects.ships;
 
 import com.codegym.engine.cell.Game;
+import com.codegym.games.spaceinvaders.gameobjects.GameObject;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.Bullet;
 
 import java.util.ArrayList;
 import java.util.Arrays;

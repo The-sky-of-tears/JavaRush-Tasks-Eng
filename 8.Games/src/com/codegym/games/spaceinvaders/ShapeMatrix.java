@@ -10,7 +10,7 @@ public class ShapeMatrix {
     public static final int[][] PLAYER = new int[][]{
             {0, 0, 28, 0, 0},
             {0, 28, 28, 28, 0},
-            {28, 28, 28, 28, 28}
+            {28, 49, 28, 49, 28}
     };
 
     public static final int[][] DEAD_PLAYER = new int[][]{
@@ -29,6 +29,13 @@ public class ShapeMatrix {
             {65},
             {65}
     };
+
+    public static final int[][] BOSS_BULLET = new int[][]{
+            {65, 65, 65, 65, 65},
+            {0, 65, 65, 65, 0},
+            {0, 0, 65, 0, 0}
+    };
+
 
     public static final int[][] PLAYER_BULLET = new int[][]{
             {75},

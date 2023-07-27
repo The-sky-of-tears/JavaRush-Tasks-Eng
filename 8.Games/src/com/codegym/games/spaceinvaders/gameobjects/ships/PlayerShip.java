@@ -1,10 +1,11 @@
-package com.codegym.games.spaceinvaders.gameobjects;
+package com.codegym.games.spaceinvaders.gameobjects.ships;
 
 import com.codegym.games.spaceinvaders.Direction;
 import com.codegym.games.spaceinvaders.ShapeMatrix;
 import com.codegym.games.spaceinvaders.SpaceInvadersGame;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.Bullet;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.PlayerBullet;
 
-import java.awt.*;
 import java.util.List;
 
 public class PlayerShip extends Ship {
@@ -46,7 +47,7 @@ public class PlayerShip extends Ship {
             return null;
         }
 
-        return new Bullet(x + 2, y - ShapeMatrix.PLAYER_BULLET.length, Direction.UP);
+        return new PlayerBullet(x + 2, y - ShapeMatrix.PLAYER_BULLET.length);
     }
 
     public void move() {

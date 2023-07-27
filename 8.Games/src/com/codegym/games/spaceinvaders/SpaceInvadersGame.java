@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import com.codegym.engine.cell.*;
-import com.codegym.games.spaceinvaders.gameobjects.Bullet;
+import com.codegym.games.spaceinvaders.gameobjects.bullets.Bullet;
 import com.codegym.games.spaceinvaders.gameobjects.EnemyFleet;
-import com.codegym.games.spaceinvaders.gameobjects.PlayerShip;
+import com.codegym.games.spaceinvaders.gameobjects.ships.PlayerShip;
 import com.codegym.games.spaceinvaders.gameobjects.Star;
 
 public class SpaceInvadersGame extends Game {

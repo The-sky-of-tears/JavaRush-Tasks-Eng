@@ -1,22 +1,17 @@
-package com.codegym.games.spaceinvaders.gameobjects;
+package com.codegym.games.spaceinvaders.gameobjects.bullets;
 
 import com.codegym.games.spaceinvaders.Direction;
-import com.codegym.games.spaceinvaders.ShapeMatrix;
+import com.codegym.games.spaceinvaders.gameobjects.GameObject;
 
 import java.util.List;
 
-public class Bullet extends GameObject {
+public abstract class Bullet extends GameObject {
     public boolean isAlive = true;
 
     private int dy;
 
     public Bullet(double x, double y, Direction direction) {
         super(x, y);
-        if (direction == Direction.DOWN) {
-            setMatrix(ShapeMatrix.ENEMY_BULLET);
-        } else if (direction == Direction.UP) {
-            setMatrix(ShapeMatrix.PLAYER_BULLET);
-        }
         dy = direction == Direction.UP ? -1 : 1;
     }
 
@@ -34,6 +29,9 @@ public class Bullet extends GameObject {
         }
 
         for (Bullet bullet : bullets) {
+            if (bullet instanceof BossBullet) {
+                continue;
+            }
             if (bullet.isAlive && this.isAlive && this.isCollision(bullet)) {
                 this.kill();
                 bullet.kill();

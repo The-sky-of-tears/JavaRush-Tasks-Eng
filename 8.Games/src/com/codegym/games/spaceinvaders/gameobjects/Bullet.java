@@ -3,6 +3,8 @@ package com.codegym.games.spaceinvaders.gameobjects;
 import com.codegym.games.spaceinvaders.Direction;
 import com.codegym.games.spaceinvaders.ShapeMatrix;
 
+import java.util.List;
+
 public class Bullet extends GameObject {
     public boolean isAlive = true;
 
@@ -24,5 +26,19 @@ public class Bullet extends GameObject {
 
     public void kill() {
         isAlive = false;
+    }
+
+    public void checkHit(List<Bullet> bullets) {
+        if (bullets.isEmpty()) {
+            return;
+        }
+
+        for (Bullet bullet : bullets) {
+            if (bullet.isAlive && this.isAlive && this.isCollision(bullet)) {
+                this.kill();
+                bullet.kill();
+                return;
+            }
+        }
     }
 }

@@ -157,6 +157,9 @@ public class SpaceInvadersGame extends Game {
         playerShip.checkHit(enemyBullets);
         int scoreForKills = enemyFleet.checkHit(playerBullets);
         score += scoreForKills;
+        for (Bullet playerBullet : playerBullets) {
+            playerBullet.checkHit(enemyBullets);
+        }
 
         removeDeadBullets();
         if (!playerShip.isAlive) {

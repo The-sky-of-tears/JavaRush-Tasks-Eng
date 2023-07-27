@@ -58,7 +58,7 @@ public class EnemyFleet {
     }
 
     public int checkHit(List<Bullet> bullets) {
-        if (bullets.size() == 0) {
+        if (bullets.isEmpty()) {
             return 0;
         }
 

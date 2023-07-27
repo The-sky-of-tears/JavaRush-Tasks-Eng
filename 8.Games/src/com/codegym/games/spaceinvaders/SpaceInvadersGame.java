@@ -119,8 +119,7 @@ public class SpaceInvadersGame extends Game {
     private void drawField() {
         for (int i = 0; i < HEIGHT; i++) {
             for (int j = 0; j < WIDTH; j++) {
-                setCellValueEx(i, j, Color.DARKBLUE, "");
-                /*setCellColor(i, j, Color.DARKVIOLET);*/
+                setCellValueEx(i, j, Color.BLACK, "");
             }
         }
 
@@ -148,7 +147,7 @@ public class SpaceInvadersGame extends Game {
         it = playerBullets.listIterator();
         while (it.hasNext()) {
             Bullet currentBullet = it.next();
-            if (currentBullet.y + ShapeMatrix.BULLET.length < 0 || !currentBullet.isAlive) {
+            if (currentBullet.y + ShapeMatrix.ENEMY_BULLET.length < 0 || !currentBullet.isAlive) {
                 it.remove();
             }
         }

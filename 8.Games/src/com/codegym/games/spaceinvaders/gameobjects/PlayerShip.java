@@ -46,7 +46,7 @@ public class PlayerShip extends Ship {
             return null;
         }
 
-        return new Bullet(x + 2, y - ShapeMatrix.BULLET.length, Direction.UP);
+        return new Bullet(x + 2, y - ShapeMatrix.PLAYER_BULLET.length, Direction.UP);
     }
 
     public void move() {

@@ -126,6 +126,6 @@ public class EnemyFleet {
     }
 
     private double getSpeed() {
-        return Math.min(2.0, 5.0 / ships.size());
+        return Math.min(2.0, 10.0 / ships.size());
     }
 }

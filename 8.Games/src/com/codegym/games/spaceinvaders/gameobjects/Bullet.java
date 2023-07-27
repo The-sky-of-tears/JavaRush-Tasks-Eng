@@ -1,6 +1,5 @@
 package com.codegym.games.spaceinvaders.gameobjects;
 
-import com.codegym.engine.cell.Game;
 import com.codegym.games.spaceinvaders.Direction;
 import com.codegym.games.spaceinvaders.ShapeMatrix;
 
@@ -11,7 +10,11 @@ public class Bullet extends GameObject {
 
     public Bullet(double x, double y, Direction direction) {
         super(x, y);
-        setMatrix(ShapeMatrix.BULLET);
+        if (direction == Direction.DOWN) {
+            setMatrix(ShapeMatrix.ENEMY_BULLET);
+        } else if (direction == Direction.UP) {
+            setMatrix(ShapeMatrix.PLAYER_BULLET);
+        }
         dy = direction == Direction.UP ? -1 : 1;
     }
 

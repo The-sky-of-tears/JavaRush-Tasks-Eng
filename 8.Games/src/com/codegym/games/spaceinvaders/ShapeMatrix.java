@@ -2,15 +2,15 @@ package com.codegym.games.spaceinvaders;
 
 public class ShapeMatrix {
     public static final int[][] ENEMY = new int[][]{
-            {7, 0, 7},
-            {7, 7, 7},
-            {0, 7, 0}
+            {5, 0, 5},
+            {5, 5, 5},
+            {0, 5, 0}
     };
 
     public static final int[][] PLAYER = new int[][]{
-            {0, 0, 6, 0, 0},
-            {0, 6, 6, 6, 0},
-            {6, 6, 6, 6, 6}
+            {0, 0, 28, 0, 0},
+            {0, 28, 28, 28, 0},
+            {28, 28, 28, 28, 28}
     };
 
     public static final int[][] DEAD_PLAYER = new int[][]{
@@ -25,9 +25,14 @@ public class ShapeMatrix {
             {5, 5, 5, 5, 5}
     };
 
-    public static final int[][] BULLET = new int[][]{
-            {2},
-            {2}
+    public static final int[][] ENEMY_BULLET = new int[][]{
+            {65},
+            {65}
+    };
+
+    public static final int[][] PLAYER_BULLET = new int[][]{
+            {75},
+            {75}
     };
 
     public static final int[][] KILL_ENEMY_ANIMATION_FIRST = new int[][]{

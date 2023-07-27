@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Ship extends GameObject {
+public abstract class Ship extends GameObject {
     public boolean isAlive = true;
 
     private List<int[][]> frames;
@@ -20,7 +20,6 @@ public class Ship extends GameObject {
     @Override
     public void draw(Game game) {
         super.draw(game);
-
         nextFrame();
     }
 
@@ -52,9 +51,7 @@ public class Ship extends GameObject {
         setMatrix(frames.get(frameIndex));
     }
 
-    public Bullet fire() {
-        return null;
-    }
+    public abstract Bullet fire();
 
     public void kill() {
         isAlive = false;

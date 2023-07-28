@@ -188,4 +188,8 @@ public class SpaceInvadersGame extends Game {
             stopGame(playerShip.isAlive);
         }
     }
+
+    public static void main(String[] args) {
+        new SpaceInvadersGame().start();
+    }
 }

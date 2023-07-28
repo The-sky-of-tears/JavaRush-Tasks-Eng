@@ -1,4 +1,4 @@
-## Java Tasks
+# Java Tasks
 
 This repository contains Java tasks that I completed during the JavaRush course ([CodeGym](https://codegym.cc/quests) - English version) to learn Java basics.
 
